@@ -68,7 +68,7 @@
             bindings = <
 &kp GRAVE       &kp F1         &kp F2         &kp F3  &kp F4  &kp F5        &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10    &trans
 &trans          &kp LS(EQUAL)  &kp LS(MINUS)  &trans  &trans  &bt BT_CLR    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP      &kp END    &kp MINUS  &kp EQUAL
-&kp LEFT_SHIFT  &trans         &trans         &trans  &trans  &trans        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp TILDE  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &trans         &trans         &trans  &trans  &trans        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp APOS   &kp RIGHT_SHIFT
 &kp LCTRL       &trans         &trans         &trans  &trans  &trans        &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &trans     &trans     &kp RCTRL
 &kp C_MUTE      &trans         &trans         &trans  &trans  &trans        &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
