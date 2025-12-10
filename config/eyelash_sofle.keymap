@@ -39,11 +39,6 @@
     };
 
     behaviors {
-
-        studio_unlock: behavior_studio-unlock {
-            compatible = "zmk,behavior-studio-unlock";
-            label = "STUDIO_UNLOCK";
-        };
     };
 
     combos {
