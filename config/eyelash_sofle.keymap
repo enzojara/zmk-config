@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &bt BT_SEL 0          &bt BT_SEL 1       &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&studio_unlock  &kp BACKSLASH         &kp LS(BACKSLASH)  &kp LS(N8)            &kp LS(N9)             &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans          &kp RA(SINGLE_QUOTE)  &kp RA(BACKSLASH)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans          &sys_reset            &trans             &bootloader           &trans                 &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans          &trans                &trans             &trans                &trans                 &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp TILDE       &bt BT_SEL 0          &bt BT_SEL 1              &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&studio_unlock  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(N8)            &kp LS(N9)             &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans          &kp RA(SINGLE_QUOTE)  &kp RA(BACKSLASH)         &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans          &sys_reset            &trans                    &bootloader           &trans                 &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans          &trans                &trans                    &trans                &trans                 &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
