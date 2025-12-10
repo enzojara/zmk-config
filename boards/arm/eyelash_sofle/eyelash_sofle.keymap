@@ -36,6 +36,12 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
         };
+
+        /* 🔓 Comportamiento para ZMK Studio */
+        studio_unlock: behavior_studio-unlock {
+            compatible = "zmk,behavior-studio-unlock";
+            label = "STUDIO_UNLOCK";
+        };
     };
 
     scroll_encoder: scroll_encoder {
